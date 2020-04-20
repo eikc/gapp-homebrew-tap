@@ -2,16 +2,16 @@
 class Gapp < Formula
   desc "Small utility cli to ease the use of github"
   homepage ""
-  version "0.2.0"
+  version "0.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/eikc/gapp/releases/download/v0.2.0/gapp_0.2.0_Darwin_x86_64.tar.gz"
-    sha256 "969008efa37ed238bee3edeeab08e07fdc9a20baf1d9f12ca4a021b39613f189"
+    url "https://github.com/eikc/gapp/releases/download/v0.2.1/gapp_0.2.1_Darwin_x86_64.tar.gz"
+    sha256 "d539317a01d97e7964a3869075129ad3025b4a9b89ca05d5243384374a668803"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/eikc/gapp/releases/download/v0.2.0/gapp_0.2.0_Linux_x86_64.tar.gz"
-      sha256 "9b538eeb748238a963aa457b539abb4a9eb86cd040208a8b580ac844eb2fd7eb"
+      url "https://github.com/eikc/gapp/releases/download/v0.2.1/gapp_0.2.1_Linux_x86_64.tar.gz"
+      sha256 "7049cd0b47024ad32d058b0b2c89ff15fdc74321a4298d3a6275bc045ef82bab"
     end
   end
 
